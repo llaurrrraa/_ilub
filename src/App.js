@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/index/Navbar.jsx';
 
-function App() {
+
+const App = () => {
+
   return (
     <div className="App">
-      
+      <Navbar/>
     </div>
   );
 }
