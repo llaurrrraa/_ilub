@@ -1,4 +1,6 @@
 import "../../scss/components/navbar.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const tabs = [
@@ -28,7 +30,8 @@ const Navbar = () => {
         ))}
       </div>
       <div className="right-btns">
-          
+        <FontAwesomeIcon icon={ fas.faCartShopping } />
+        <FontAwesomeIcon icon={ fas.faCircleUser } />
       </div>
     </nav>
   )
