@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/index/Navbar.jsx';
+import Navbar from '../components/index/Navbar.jsx';
 
 const App = () => {
 
